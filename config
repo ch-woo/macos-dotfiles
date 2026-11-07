@@ -5,22 +5,25 @@
 # Homebrew Casks: Applications installed via Homebrew Cask.
 # These are GUI applications available through Homebrew.
 CASKS=(
-  # firefox@developer-edition
   affinity
+  app-cleaner
+  bitwarden
   discord
   firefox
   fork
   glance-chamburr
-  # jottacloud
+  home-assistant
   local
   maccy
   mp3tag
-  # nordvpn
+  neofinder
   obsidian
   prepros
-  protonvp
   proton-drive
+  protonvp
   rekordbox
+  signal
+  syncthing
   telegram
   visual-studio-code
   vlc
@@ -29,12 +32,12 @@ CASKS=(
 
 # Homebrew Formulae: Command line tools installed via Homebrew.
 FORMULAE=(
-  tree
-  pinentry-mac
+  git
+  # tree
+  # pinentry-mac
   # speedtest-cli
   # nmap
   # wget
-  # git
   # python
   # python-tk
 )
@@ -106,13 +109,9 @@ DOCK_REPLACE=(
 )
 
 DOCK_ADD=(
-  # "/Applications/iTerm.app"
   "/Applications/Firefox.app"
   "/Applications/Visual Studio Code.app"
-  # "/Applications/GitHub Desktop.app"
-  # "/Applications/Spotify.app"
-  # "/Applications/Discord.app"
-  # "/Applications/Microsoft Teams (work or school).app"
+  "/Applications/Discord.app"
 )
 DOCK_REMOVE=(
   # "Meldinger"
